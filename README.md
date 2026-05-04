@@ -1,8 +1,8 @@
-# SharePoint Requirements Register System
+# SharePoint-based Requirements Register using Microsoft Lists in Teams
 
 ## Overview
 
-This project presents a SharePoint-based Requirements Register designed to support structured requirement tracking, stakeholder linkage, and iterative project development.
+This project presents a Requirements Register built using Microsoft Lists in Teams, backed by SharePoint. It is designed to support structured requirement tracking, stakeholder linkage, and iterative project development.
 
 It was developed as part of the ITBA BPMN Template initiative and evolved from an initial setup into a more structured and reusable system aligned with business analysis practices.
 
@@ -22,7 +22,7 @@ Common challenges include:
 
 ## Solution
 
-This project provides a SharePoint List-based system that enables:
+This project provides a Microsoft List-based system that enables:
 
 - Structured requirement tracking
 - Stakeholder linkage using lookup fields
@@ -38,7 +38,7 @@ The goal is to create a reusable and understandable solution that can be applied
 
 - Business Analysis students  
 - Project teams  
-- Internal organizational teams using SharePoint  
+- Internal organizational teams using Microsoft Lists  
 
 ---
 
@@ -59,7 +59,7 @@ The goal is to create a reusable and understandable solution that can be applied
 
 ## List Structure
 
-The SharePoint List includes the following key fields:
+The Microsoft List includes the following key fields:
 
 - Requirement ID  
 - Requirement Title  
@@ -80,9 +80,11 @@ Detailed structure is available in the `/docs` folder.
 
 ## Setup Instructions
 
+This solution can be created via Microsoft Teams (recommended) or directly in SharePoint.
+
 To recreate this solution:
 
-1. Create a new SharePoint List  
+1. Create a new Microsoft List (via Teams or SharePoint)  
 2. Add columns based on the structure described in `/docs/list-structure.md`  
 3. Configure views:  
    - List view for standard tracking  
@@ -132,9 +134,17 @@ The Requirements Register supports this work by providing a structured way to ma
 
 ---
 
+## Template Export Note
+
+Due to SharePoint environment and permission limitations, exporting the list as a template (.stp) may not be available in all cases.
+
+This solution is designed to be fully recreated using the provided documentation and setup guide, ensuring it can be implemented across different environments without relying on template export functionality.
+
+---
+
 ## Future Improvements
 
-- Export as reusable SharePoint template  
+- Explore export as a reusable SharePoint template, depending on environment support  
 - Integration with BPMN modeling workflows  
 - Enhanced automation using Power Automate  
 - Improved reporting and dashboards  
