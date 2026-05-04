@@ -107,10 +107,20 @@ Additional documentation is available in the `/docs` folder:
 
 See the `/screenshots` folder for examples of the working solution, including:
 
-- Requirements List view  
-- Board view  
-- Calendar view  
-- Example requirement entry  
+### List View Overview
+![List View Overview](screenshots/list-view-overview.png)
+
+### List View Detail
+![List View Detail](screenshots/list-view-detail.png)
+
+### Board View
+![Board View](screenshots/board-view.png)
+
+### Calendar View
+![Calendar View](screenshots/calendar-view.png)
+
+### Requirement Form
+![Requirement Form](screenshots/requirement-form.png)
 
 ---
 
