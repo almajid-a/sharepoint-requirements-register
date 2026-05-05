@@ -12,11 +12,21 @@ Based on testing, importing these CSV files creates columns with expected data t
 
 ---
 
+## Provided Files
+
+The `/data` folder includes:
+
+- requirements-register.csv  
+- stakeholder-register.csv  
+
+---
+
 ## Setup Order
 
 1. Create the **Stakeholder Register**
 2. Create the **Requirements Register**
 3. Configure the **Stakeholders lookup column**
+4. Configure views
 
 ---
 
@@ -124,6 +134,48 @@ Based on testing, importing these CSV files creates columns with expected data t
 
 ---
 
+# Part 4: Configure Views
+
+After creating the lists from CSV, configure the required views manually.
+
+---
+
+## Board View (Status-Based)
+
+1. Open the Requirements Register  
+2. Click the current view name  
+3. Select **Create new view**  
+4. Choose **Board**  
+5. Group by:
+   - Status  
+
+---
+
+## Calendar View (Due Dates)
+
+1. Create a new view  
+2. Choose **Calendar**  
+3. Select:
+   - Date field: Due Date  
+
+---
+
+## List Views
+
+Use list views for:
+
+- Detailed tracking  
+- Editing entries  
+- Filtering and sorting  
+
+---
+
+## Note
+
+CSV import creates the column structure, but views are not included and must be configured manually.
+
+---
+
 # Final Check
 
 Ensure that:
@@ -131,6 +183,7 @@ Ensure that:
 - Both lists are created correctly  
 - Column names and types are accurate  
 - Stakeholders lookup connects properly  
+- Views are configured (Board and Calendar)  
 - Form layout is organized as expected  
 
 ---
@@ -139,4 +192,4 @@ Ensure that:
 
 The CSV templates provide a fast and structured starting point for list creation.
 
-After import, minimal configuration is required to finalize relationships, layout, and usability.
+They reduce manual setup effort and support more accurate column creation, while manual configuration completes the system.
