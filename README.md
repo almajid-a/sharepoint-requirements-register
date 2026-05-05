@@ -95,6 +95,21 @@ To recreate this solution:
 
 ---
 
+## CSV-Based Setup (Optional)
+
+Blank CSV templates are available in the `/data` folder:
+
+- requirements-register.csv  
+- stakeholder-register.csv  
+
+These can be used to quickly create the list structure with pre-defined columns.
+
+Based on testing, importing these CSV files creates columns with expected data types close to the original list. Some configuration may still be required after import.
+
+Refer to `/docs/csv-setup-guide.md` for step-by-step instructions.
+
+---
+
 ## Documentation
 
 Detailed documentation is available in the `/docs` folder:
