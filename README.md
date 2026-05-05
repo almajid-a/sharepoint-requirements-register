@@ -97,11 +97,12 @@ To recreate this solution:
 
 ## Documentation
 
-Additional documentation is available in the `/docs` folder:
+Detailed documentation is available in the `/docs` folder:
 
-- overview.md — background and context  
-- list-structure.md — detailed column definitions  
-- setup-guide.md — step-by-step configuration  
+- overview.md — project background and context  
+- list-structure.md — column definitions  
+- setup-guide.md — full setup instructions  
+- csv-setup-guide.md — CSV-based setup method  
 
 ---
 
